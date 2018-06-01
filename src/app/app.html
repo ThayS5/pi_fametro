@@ -1,0 +1,42 @@
+<ion-menu side="right" [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Menu
+      </ion-title>
+      <button ion-button menuClose="right">
+        
+      </button>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21">
+    <ion-list id="menu-list1">
+      <ion-item color="none" menuClose="" on-click="goToFARRAPP()" id="menu-list-item1">
+        <ion-icon name="calendar" item-left></ion-icon>
+        Ver eventos
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCart()" id="menu-list-item2"></ion-item>
+      <ion-item color="light" menuClose="" on-click="goToCart()" id="menu-list-item6"></ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCart()" id="menu-list-item5"></ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCloud()" id="menu-list-item3">
+        <ion-icon name="person" item-left></ion-icon>
+        Meu perfil
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCart()" id="menu-list-item4">
+        <ion-icon name="add" item-left></ion-icon>
+        Cadastrar eventos
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCart()" id="menu-list-item9">
+        <ion-icon name="albums" item-left></ion-icon>
+        Meus eventos
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCart()" id="menu-list-item7"></ion-item>
+      <ion-item color="none" id="menu-list-item8">
+        <ion-icon name="close-circle" item-left></ion-icon>
+        Sair
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav  #mainContent [root]="rootPage"></ion-nav>

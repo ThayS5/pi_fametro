@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <ion-icon name="star"></ion-icon> FARRAPP
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1" style="background-color:#FFFFFF;">
+  <form id="form4">
+    <ion-item id="input4">
+      <ion-label stacked></ion-label>
+      <ion-input type="text" placeholder="Evento" name="evento"></ion-input>
+    </ion-item>
+    <ion-item id="select1">
+      <ion-label>
+        Tipo
+      </ion-label>
+      <ion-select name="tipo">
+        <ion-option value="todos">Todos</ion-option>
+        <ion-option value="musica">Música</ion-option>
+        <ion-option value="danca">Dança</ion-option>
+        <ion-option value="teatro">Teatro</ion-option>
+        <ion-option value="festa">Festa</ion-option>
+        <ion-option value="show">Show</ion-option>
+        <ion-option value="esporte">Esporte</ion-option>
+        <ion-option value="passeio">Passeio</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item id="select2">
+      <ion-label>
+        Faixa etária
+      </ion-label>
+      <ion-select name="faixa_etaria">
+        <ion-option value="livre">Livre</ion-option>
+        <ion-option value="12">12 anos</ion-option>
+        <ion-option value="14">14 anos</ion-option>
+        <ion-option value="16">16 anos</ion-option>
+        <ion-option value="18">18 anos</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item id="input8">
+      <ion-label stacked></ion-label>
+      <ion-input type="date" placeholder="Data" name="data"></ion-input>
+    </ion-item>
+  </form>
+  <button id="button3" ion-button color="royal" block style="color:#FFFFFF;border-radius:10px 10px 10px 10px;">
+    Buscar
+  </button>
+</ion-content>
