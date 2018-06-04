@@ -7,6 +7,7 @@ import { CartPage } from '../pages/cart/cart';
 import { CloudPage } from '../pages/cloud/cloud';
 import { LoginPage } from '../pages/login/login';
 import { JorgeEMateusNicoPage } from '../pages/jorge-emateus-nico/jorge-emateus-nico';
+import { MeuPerfilPage } from '../pages/meu-perfil/meu-perfil';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -19,7 +20,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CartPage,
     CloudPage,
     LoginPage,
-    JorgeEMateusNicoPage
+    JorgeEMateusNicoPage,
+    MeuPerfilPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CartPage,
     CloudPage,
     LoginPage,
-    JorgeEMateusNicoPage
+    JorgeEMateusNicoPage,
+    MeuPerfilPage
   ],
   providers: [
     StatusBar,
